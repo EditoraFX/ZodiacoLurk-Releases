@@ -1,1 +1,1 @@
-# ZodiacoLurk
+# ZodiacoLurk-Releases

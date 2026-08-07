@@ -6,16 +6,16 @@ O workflow deste repositório compila o projeto principal [`EditoraFX/ZodiacoLur
 
 ## Publicação
 
-- Versão inicial: `v1.0.0`
+- Versão publicada: `v1.0.1` (também disponível: `v1.0.0`)
 - Plataforma: Windows 10/11 x64
 - Pacote: instalador NSIS
 - Origem do código: branch `main` do repositório principal
 
-Instalador desta versão: `Zodiaco-Viewer-1.0.0-x64-setup.exe`
+Instalador desta versão: `Zodiaco-Viewer-1.0.1-x64-setup.exe`
 
-SHA-256: `A09EB70FC8A63B8DB38475F4A8B649D91F1D6D5E7AD934917CAB7161338ECCF5`
+O manifesto `latest.json` e o arquivo `.sig` acompanham a release para permitir o auto-update assinado do aplicativo.
 
-Para futuras versões, o repositório precisa do secret `ZODIACO_SOURCE_TOKEN` com permissão de leitura (`Contents: Read`) no repositório privado `EditoraFX/ZodiacoLurk`. A versão `v1.0.0` já foi compilada e publicada.
+Para futuras versões, o repositório precisa dos secrets `ZODIACO_SOURCE_TOKEN`, `TAURI_SIGNING_PRIVATE_KEY` e `TAURI_SIGNING_PRIVATE_KEY_PASSWORD`. A chave privada nunca deve ser commitada.
 
 O site aponta sempre para a página de releases, que é a fonte oficial do download:
 https://github.com/EditoraFX/ZodiacoLurk-Releases/releases

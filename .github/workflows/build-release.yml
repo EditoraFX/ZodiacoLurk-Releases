@@ -19,11 +19,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Checkout application source
-        uses: actions/checkout@v4
-        with:
-          repository: EditoraFX/ZodiacoLurk
-          ref: main
-          path: source
+        shell: pwsh
+        run: git clone --depth 1 --branch main https://github.com/EditoraFX/ZodiacoLurk.git source
 
       - name: Configure Node.js
         uses: actions/setup-node@v4

@@ -15,5 +15,7 @@ Instalador desta versão: `Zodiaco-Viewer-1.0.0-x64-setup.exe`
 
 SHA-256: `A09EB70FC8A63B8DB38475F4A8B649D91F1D6D5E7AD934917CAB7161338ECCF5`
 
+Para futuras versões, o repositório precisa do secret `ZODIACO_SOURCE_TOKEN` com permissão de leitura (`Contents: Read`) no repositório privado `EditoraFX/ZodiacoLurk`. A versão `v1.0.0` já foi compilada e publicada.
+
 O site aponta sempre para a página de releases, que é a fonte oficial do download:
 https://github.com/EditoraFX/ZodiacoLurk-Releases/releases
